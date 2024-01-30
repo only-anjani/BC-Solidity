@@ -10,10 +10,27 @@ contract SimpleStorage {
         //uint (usigned int +ve whole number)
         //int (+ve and -ve whole numbers)
         //address (public key or wallet address)
-        uint256 public favoriteNumber;
-        //This favoriteNumber gets initialised to "0"
+        //This favoriteNumber gets initialised to "0", as no number is specified
+        uint256 favoriteNumber;
+
+        struct People{
+            uint256 favoriteNumber;
+            string name;
+        }
+
+        //[] is the symbol of array. Array is a dataset used to create lists.
+        People[] public people;
 
         function store(uint256 _favoriteNumber) public{
             favoriteNumber = _favoriteNumber;
+        }
+
+        function retrieve() public view returns(uint256){
+            return favoriteNumber;
+        }
+
+        function addPerson(string memory _name, uint256 _favoriteNumber) public {
+            People memory newPerson = People({favoriteNumber: _favoriteNumber, name: _name});
+            people.push(newPerson);
         }
 }
