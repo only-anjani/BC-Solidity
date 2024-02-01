@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.22+commit.4fc1097e"
+		"version": "0.8.24+commit.e11b9ed9"
 	},
 	"language": "Solidity",
 	"output": {
@@ -26,17 +26,17 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"name": "nameToFavoritreNumber",
-				"outputs": [
-					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					}
+				],
+				"name": "nameOfFavoritreNumber",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -121,11 +121,11 @@
 	},
 	"sources": {
 		"contracts/SimpleStorage.sol": {
-			"keccak256": "0x15ad7d5b53da6ba845e25d1101652c3a0705a9d0c12f71c73bd038d5b310d945",
+			"keccak256": "0x293846664845abfc6be162ea1db250257fde7a58f5e2722f128892d35ae93e01",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1a5b5900c8697dc462bf733782dd7a33ab5fc521e5ef3b7ecbf54cca283f4319",
-				"dweb:/ipfs/QmeyBNiLULMoveuGtq6jpAB3Pv8Dukq7t6DqAcuzjmxFCe"
+				"bzz-raw://e88d15b196feda09c747fa8062667d5135cd880ed79798422de0322098f51834",
+				"dweb:/ipfs/QmcYVts3ybZAt3Y7gD1xcmaSChnzV1y1bwbUc5uSd39cKt"
 			]
 		}
 	},
