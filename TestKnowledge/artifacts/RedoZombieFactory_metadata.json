@@ -1,0 +1,108 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "zombieId",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "dna",
+						"type": "uint256"
+					}
+				],
+				"name": "NewZombie",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "createRandomZombie",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "zombies",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "dna",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"TestKnowledge/RedoZombieFactory.sol": "RedoZombieFactory"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"TestKnowledge/RedoZombieFactory.sol": {
+			"keccak256": "0x579a24f7db77ffa2900ff0cffca8cab210b6136bdfb0b289328b32423d417b5c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fa165b25414c1d1bd77cf82950dffe3af8ee45f5a30fd59b3e2c86af4d3aa6ef",
+				"dweb:/ipfs/QmeW81jSW5h7sqr5g2enFWGXi3yzsCyY3HaQSDqS2wg7K4"
+			]
+		}
+	},
+	"version": 1
+}
