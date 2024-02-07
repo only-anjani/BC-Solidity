@@ -51,6 +51,25 @@
 						"type": "uint256"
 					}
 				],
+				"name": "zombieToOwner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
 				"name": "zombies",
 				"outputs": [
 					{
@@ -81,7 +100,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"TestKnowledge/CompareOriginal.sol": "ZombieFactory"
+			"TestKnowledge/ZombieFactory.sol": "ZombieFactory"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -95,12 +114,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"TestKnowledge/CompareOriginal.sol": {
-			"keccak256": "0x1d6a52f3d86056b582c7401fa7f3d525c57c464e2b0f8fc2fb740583b29934b9",
+		"TestKnowledge/ZombieFactory.sol": {
+			"keccak256": "0xd38f9cc8658336acdf074d008039817fb467da4fbfe2ed5146a8ce92f12fabd2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://621753a73b38d3978fec14304bc2c285ce35037373947455eec9eaa4afe1fb3a",
-				"dweb:/ipfs/QmVeqn1ixeVdgyzu8QkycafQRBMUa3RwHp9mufgpMsTt5v"
+				"bzz-raw://b973d0fbd641a9d9caa9dbf46b6b98ede282e2713bbedbdf2787c398e46e0290",
+				"dweb:/ipfs/QmVFMLArQJcxQYseANPgoCMbapJVrmB4NNy8cZ5MwMGZ8a"
 			]
 		}
 	},

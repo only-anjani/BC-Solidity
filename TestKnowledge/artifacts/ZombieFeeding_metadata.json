@@ -47,6 +47,42 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "_zombieId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_targetDna",
+						"type": "uint256"
+					}
+				],
+				"name": "feedAndMultiply",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_zombieId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_kittyId",
+						"type": "uint256"
+					}
+				],
+				"name": "feedOnKitty",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
@@ -100,7 +136,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"TestKnowledge/RedoZombieFactory.sol": "RedoZombieFactory"
+			"TestKnowledge/ZombieFeeding.sol": "ZombieFeeding"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -114,12 +150,20 @@
 		"remappings": []
 	},
 	"sources": {
-		"TestKnowledge/RedoZombieFactory.sol": {
-			"keccak256": "0x151685bd2be3214db45f8c22aae665219ea61535133c6c91d4a037061fc4f0bd",
+		"TestKnowledge/ZombieFactory.sol": {
+			"keccak256": "0xd38f9cc8658336acdf074d008039817fb467da4fbfe2ed5146a8ce92f12fabd2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://61c800e67cd03e6c18c53cf352ee9160d97df0b7e9efb3358dd4886bd9dcef0f",
-				"dweb:/ipfs/QmQgF3wBDHNJUK6krPAYNqL4TEn7RvzFueUuwzD4iShQzC"
+				"bzz-raw://b973d0fbd641a9d9caa9dbf46b6b98ede282e2713bbedbdf2787c398e46e0290",
+				"dweb:/ipfs/QmVFMLArQJcxQYseANPgoCMbapJVrmB4NNy8cZ5MwMGZ8a"
+			]
+		},
+		"TestKnowledge/ZombieFeeding.sol": {
+			"keccak256": "0x7603cfc60046bf36251568d7b3698ba616bbd3d9c24e0f97eb06b2c026c45e01",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://608f84686cca192deb9e031a5e1a0eec9b73eb6e6c670264c4b7e9da010003f1",
+				"dweb:/ipfs/Qmd3G3GsjztFEeeaEG1jiZGCoQ9c9i6v7UQ8se3J6zfTtn"
 			]
 		}
 	},

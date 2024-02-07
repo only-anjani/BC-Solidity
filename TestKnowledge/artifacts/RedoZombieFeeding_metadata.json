@@ -47,6 +47,47 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "_zombieId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_targetDna",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_species",
+						"type": "string"
+					}
+				],
+				"name": "feedAndMultiply",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_zombieId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_kittyId",
+						"type": "uint256"
+					}
+				],
+				"name": "feedOnKitty",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
@@ -100,7 +141,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"TestKnowledge/RedoZombieFactory.sol": "RedoZombieFactory"
+			"TestKnowledge/RedoZombieFeeding.sol": "RedoZombieFeeding"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -120,6 +161,14 @@
 			"urls": [
 				"bzz-raw://61c800e67cd03e6c18c53cf352ee9160d97df0b7e9efb3358dd4886bd9dcef0f",
 				"dweb:/ipfs/QmQgF3wBDHNJUK6krPAYNqL4TEn7RvzFueUuwzD4iShQzC"
+			]
+		},
+		"TestKnowledge/RedoZombieFeeding.sol": {
+			"keccak256": "0x658f2d3d1e3b1c79378b62aa595f272101a3b4350b1559ab0708b033eebf1f5e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8a94616a172296b9d8b7e1e26f95d291b59a660aa14cc1509a4cb8b3fa595432",
+				"dweb:/ipfs/QmNRPxmKcerkCPzdeHEkPdEiFGMa9QXNGx8zzXnaNATbno"
 			]
 		}
 	},
